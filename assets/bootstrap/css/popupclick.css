@@ -313,10 +313,6 @@ button:hover {
     color: #fff;
 }
 
-dugmep:hover{
-    background-color: white;
-}
-
 .klizac{
     scrollbar-width: thin;
     scrollbar-color: #065cbe;
@@ -328,9 +324,17 @@ dugmep:hover{
         left: 86%;
         margin: 0 0 2% 0;
     }
+
+    button:hover{
+        background-color: white;
+    }
 }
 
 @media only screen and (max-width:900px) {  
+
+    button:hover{
+        background-color: white;
+    }
 
     #popupDialog {
         position: fixed;
