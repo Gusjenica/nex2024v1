@@ -1,0 +1,636 @@
+body{
+    font-family: 'Poppins';
+}
+
+#popupDialog {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    visibility: hidden;
+    padding: 1rem;
+    max-height: 600px;
+    overflow-y: auto;
+    scrollbar-gutter: stable;
+}
+#popupDialog2 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    visibility: hidden;
+    max-height: 600px;
+    overflow-y: auto;
+    scrollbar-gutter: stable;
+}
+
+#popupDialog3 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    visibility: hidden;
+    max-height: 600px;
+    overflow-y: auto;
+    scrollbar-gutter: stable;
+}
+
+#popupDialog4 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    visibility: hidden;
+    max-height: 600px;
+    overflow-y: auto;
+    scrollbar-gutter: stable;
+}
+
+#popupDialog5 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    visibility: hidden;
+    max-height: 600px;
+    overflow-y: auto;
+    scrollbar-gutter: stable;
+}
+
+#popupDialog6 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    visibility: hidden;
+    max-height: 600px;
+    overflow-y: auto;
+    scrollbar-gutter: stable;
+}
+
+#popupDialog7 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    visibility: hidden;
+    max-height: 600px;
+    overflow-y: auto;
+    scrollbar-gutter: stable;
+}
+
+#popupDialog8 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    visibility: hidden;
+    max-height: 600px;
+    overflow-y: auto;
+    scrollbar-gutter: stable;
+}
+
+#popupDialog9 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    visibility: hidden;
+    max-height: 600px;
+    overflow-y: auto;
+    scrollbar-gutter: stable;
+}
+
+#popupDialog10 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    visibility: hidden;
+    max-height: 600px;
+    overflow-y: auto;
+    scrollbar-gutter: stable;
+}
+
+#popupDialog11 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    visibility: hidden;
+    max-height: 600px;
+    overflow-y: auto;
+    scrollbar-gutter: stable;
+}
+
+#popupDialog12 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    visibility: hidden;
+    max-height: 600px;
+    overflow-y: auto;
+    scrollbar-gutter: stable;
+}
+
+#popupDialog13 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    visibility: hidden;
+    max-height: 600px;
+    overflow-y: auto;
+    scrollbar-gutter: stable;
+}
+
+#popupDialog14 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    visibility: hidden;
+    max-height: 600px;
+    overflow-y: auto;
+    scrollbar-gutter: stable;
+}
+
+#popupDialog15 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    visibility: hidden;
+    max-height: 600px;
+    overflow-y: auto;
+    scrollbar-gutter: stable;
+}
+
+#popupDialog16 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    visibility: hidden;
+    max-height: 600px;
+    overflow-y: auto;
+    scrollbar-gutter: stable;
+}
+
+#popupDialog17 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    visibility: hidden;
+    max-height: 600px;
+    overflow-y: auto;
+    scrollbar-gutter: stable;
+}
+.desnodugme{
+    position: relative;
+    left: 93%;
+    margin: 0 0 2% 0;
+}
+
+.centriranjeteksta{
+   text-align: center;
+}
+
+.centriranjedugmeta{
+    left: 42%;
+    position: relative;
+}
+
+h1 {
+    color: #000;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: white;
+    color: #000;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.klizac{
+    scrollbar-width: thin;
+    scrollbar-color: #065cbe;
+}
+
+@media only screen and (max-width:500px) {
+    .desnodugme{
+        position: relative;
+        left: 86%;
+        margin: 0 0 2% 0;
+    }
+}
+
+@media only screen and (max-width:900px) {  
+
+    #popupDialog {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 20px;
+        background-color: aliceblue;
+        border-radius: 20px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+        z-index: 1000;
+        visibility: hidden;
+        padding: 1rem;
+        max-height: 800px;
+        overflow-y: auto;
+        scrollbar-gutter: stable;
+        width: 100%;
+    }
+
+    #popupDialog2 {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 20px;
+        background-color: aliceblue;
+        border-radius: 20px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+        z-index: 1000;
+        visibility: hidden;
+        padding: 1rem;
+        max-height: 800px;
+        overflow-y: auto;
+        scrollbar-gutter: stable;
+        width: 100%;
+    }
+
+    #popupDialog3 {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 20px;
+        background-color: aliceblue;
+        border-radius: 20px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+        z-index: 1000;
+        visibility: hidden;
+        padding: 1rem;
+        max-height: 800px;
+        overflow-y: auto;
+        scrollbar-gutter: stable;
+        width: 100%;
+    }
+
+    #popupDialog4 {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 20px;
+        background-color: aliceblue;
+        border-radius: 20px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+        z-index: 1000;
+        visibility: hidden;
+        padding: 1rem;
+        max-height: 800px;
+        overflow-y: auto;
+        scrollbar-gutter: stable;
+        width: 100%;
+    }
+
+    #popupDialog5 {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 20px;
+        background-color: aliceblue;
+        border-radius: 20px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+        z-index: 1000;
+        visibility: hidden;
+        padding: 1rem;
+        max-height: 800px;
+        overflow-y: auto;
+        scrollbar-gutter: stable;
+        width: 100%;
+    }
+
+    #popupDialog6 {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 20px;
+        background-color: aliceblue;
+        border-radius: 20px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+        z-index: 1000;
+        visibility: hidden;
+        padding: 1rem;
+        max-height: 800px;
+        overflow-y: auto;
+        scrollbar-gutter: stable;
+        width: 100%;
+    }
+
+    #popupDialog7 {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 20px;
+        background-color: aliceblue;
+        border-radius: 20px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+        z-index: 1000;
+        visibility: hidden;
+        padding: 1rem;
+        max-height: 800px;
+        overflow-y: auto;
+        scrollbar-gutter: stable;
+        width: 100%;
+    }
+
+    #popupDialog8 {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 20px;
+        background-color: aliceblue;
+        border-radius: 20px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+        z-index: 1000;
+        visibility: hidden;
+        padding: 1rem;
+        max-height: 800px;
+        overflow-y: auto;
+        scrollbar-gutter: stable;
+        width: 100%;
+    }
+
+    #popupDialog9 {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 20px;
+        background-color: aliceblue;
+        border-radius: 20px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+        z-index: 1000;
+        visibility: hidden;
+        padding: 1rem;
+        max-height: 800px;
+        overflow-y: auto;
+        scrollbar-gutter: stable;
+        width: 100%;
+    }
+
+    #popupDialog10 {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 20px;
+        background-color: aliceblue;
+        border-radius: 20px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+        z-index: 1000;
+        visibility: hidden;
+        padding: 1rem;
+        max-height: 800px;
+        overflow-y: auto;
+        scrollbar-gutter: stable;
+        width: 100%;
+    }
+
+    #popupDialog11 {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 20px;
+        background-color: aliceblue;
+        border-radius: 20px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+        z-index: 1000;
+        visibility: hidden;
+        padding: 1rem;
+        max-height: 800px;
+        overflow-y: auto;
+        scrollbar-gutter: stable;
+        width: 100%;
+    }
+
+    #popupDialog12 {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 20px;
+        background-color: aliceblue;
+        border-radius: 20px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+        z-index: 1000;
+        visibility: hidden;
+        padding: 1rem;
+        max-height: 800px;
+        overflow-y: auto;
+        scrollbar-gutter: stable;
+        width: 100%;
+    }
+
+    #popupDialog13 {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 20px;
+        background-color: aliceblue;
+        border-radius: 20px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+        z-index: 1000;
+        visibility: hidden;
+        padding: 1rem;
+        max-height: 800px;
+        overflow-y: auto;
+        scrollbar-gutter: stable;
+        width: 100%;
+    }
+
+    #popupDialog14 {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 20px;
+        background-color: aliceblue;
+        border-radius: 20px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+        z-index: 1000;
+        visibility: hidden;
+        padding: 1rem;
+        max-height: 800px;
+        overflow-y: auto;
+        scrollbar-gutter: stable;
+        width: 100%;
+    }
+
+    #popupDialog15 {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 20px;
+        background-color: aliceblue;
+        border-radius: 20px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+        z-index: 1000;
+        visibility: hidden;
+        padding: 1rem;
+        max-height: 800px;
+        overflow-y: auto;
+        scrollbar-gutter: stable;
+        width: 100%;
+    }
+
+    #popupDialog16 {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 20px;
+        background-color: aliceblue;
+        border-radius: 20px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+        z-index: 1000;
+        visibility: hidden;
+        padding: 1rem;
+        max-height: 800px;
+        overflow-y: auto;
+        scrollbar-gutter: stable;
+        width: 100%;
+    }
+
+    #popupDialog17 {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 20px;
+        background-color: aliceblue;
+        border-radius: 20px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+        z-index: 1000;
+        visibility: hidden;
+        padding: 1rem;
+        max-height: 800px;
+        overflow-y: auto;
+        scrollbar-gutter: stable;
+        width: 100%;
+    }
+}

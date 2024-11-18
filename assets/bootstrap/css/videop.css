@@ -1,0 +1,28 @@
+.wNe-featured {
+    align-items: center;
+    justify-content: flex-start;
+    display: flex;
+    position: relative;background: linear-gradient(to top, #000000d9, rgba(255, 255, 255, 0)), url('//STRANICA/Website/assets/images/truck-ai-1792x1024.jpg');
+    background-position: center;
+    background-size: cover;
+  }
+  .wNe-featured-video {
+    width: 100%;
+    object-position: left;
+    object-fit: cover;
+  }
+  .wNe-featured-txt {
+    z-index: 2;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 600;
+    color: var(--strd-wht);
+    font-size: var(--hdr-txt);
+  }
+
+  .prikazivanje{
+    display: none;
+  }

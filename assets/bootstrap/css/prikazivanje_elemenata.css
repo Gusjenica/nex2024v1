@@ -1,0 +1,13 @@
+.slikaprikaz{
+    display: none;
+   }
+  
+  @media only screen and (max-width:800px) {
+   .videoprikaz{
+    display: none;
+   }
+
+   .slikaprikaz{
+    display: flex;
+   }
+}
