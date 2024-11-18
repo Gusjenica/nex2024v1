@@ -845,7 +845,7 @@ a {
   transition: 0.3s all !important;
 }
 .cid-uaMcZ6xteA .navbar-nav .nav-item .nav-link:hover {
-  background-color: white;
+  background-color: rgba(27, 31, 10, 0.06);
 }
 .cid-uaMcZ6xteA .navbar-nav .open .nav-link::after {
   transform: rotate(180deg);
@@ -867,7 +867,7 @@ a {
   transition: 0.3s all !important;
 }
 .cid-uaMcZ6xteA .navbar-nav .dropdown-item:hover {
-  background-color: white;
+  background-color: rgba(27, 31, 10, 0.06);
 }
 @media (min-width: 992px) {
   .cid-uaMcZ6xteA .navbar-nav {
