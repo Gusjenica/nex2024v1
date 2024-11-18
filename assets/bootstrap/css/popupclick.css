@@ -256,6 +256,7 @@ body{
     max-height: 600px;
     overflow-y: auto;
     scrollbar-gutter: stable;
+
 }
 
 #popupDialog17 {
@@ -273,6 +274,7 @@ body{
     overflow-y: auto;
     scrollbar-gutter: stable;
 }
+
 .desnodugme{
     position: relative;
     left: 93%;
@@ -309,7 +311,7 @@ button {
 }
 
 button:hover {
-    background-color: black;
+    background-color: #065cbe;
     color: #fff;
 }
 
@@ -324,15 +326,16 @@ button:hover {
         left: 86%;
         margin: 0 0 2% 0;
     }
-
-    button:hover{
+    
+    #dugmepn:hover{
         background-color: white;
     }
+    
 }
 
 @media only screen and (max-width:900px) {  
 
-    button:hover{
+    #dugmepn:hover{
         background-color: white;
     }
 

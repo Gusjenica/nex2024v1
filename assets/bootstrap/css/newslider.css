@@ -13,12 +13,12 @@
 }
 
 .logo-slider::before, .logo-slider::after {
-	background: -webkit-gradient(linear, left top, right top, from(white), to(rgba(255, 255, 255, 0)));
-	background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);
+	background: aliceblue;
+	background: aliceblue;
 	content: "";
-	height: 175px;
+	height: 0;
 	position: absolute;
-	width: 200px;
+	width: 0;
 	z-index: 2;
 }
 
@@ -70,7 +70,7 @@
 }
 
 .logo-slider .slide {
-	height: 150px;
+	height: 100px;
 	width: 250px;
 	padding: 20px;
 }
@@ -108,16 +108,15 @@
 	position: relative;
 	width: 100%;
 	margin-top: -4%;
-	padding-bottom: 4%;
 }
 
 .logo-slider::before, .logo-slider::after {
-	background: -webkit-gradient(linear, left top, right top, from(white), to(rgba(255, 255, 255, 0)));
-	background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);
+	background: aliceblue;
+	background: aliceblue;
 	content: "";
-	height: 175px;
+	height: 0;
 	position: absolute;
-	width: 200px;
+	width: 0;
 	z-index: 2;
 }
 
@@ -146,14 +145,15 @@
 
 @media only screen and (max-width:1500px) {
 	.logo-slider .logo-slide-track2 {
-		-webkit-animation: logo-scroll 60s linear infinite;
-		animation: logo-scroll 60s linear infinite;
+		-webkit-animation: logo-scroll 10s linear infinite;
+		animation: logo-scroll 10s linear infinite;
 		display: -webkit-box;
 		display: -ms-flexbox;
 		display: flex;
 		width: calc(250px * 14);
-	    animation-duration: 30s;
-	    animation-iteration-count: infinite;
+		margin-left: 50%;
+	    animation-duration: 10s;
+	    animation-iteration-count:infinite;
 	}
 }
 
@@ -169,7 +169,7 @@
 }
 
 .logo-slider .slide {
-	height: 150px;
+	height: 100px;
 	width: 250px;
 	padding: 20px;
 }
