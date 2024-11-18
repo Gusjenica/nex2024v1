@@ -309,8 +309,12 @@ button {
 }
 
 button:hover {
-    background-color: transparent;
+    background-color: black;
     color: #fff;
+}
+
+dugmep:hover{
+    background-color: white;
 }
 
 .klizac{
