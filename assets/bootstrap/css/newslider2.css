@@ -120,3 +120,14 @@
 .slick-arrow.slick-hidden {
     display: none;
 }
+
+.logoprikaz{
+    margin-top: -8%;
+}
+
+@media only screen and (max-width:991px) { 
+
+.logoprikaz{
+    margin-top: -22%;
+}
+}
