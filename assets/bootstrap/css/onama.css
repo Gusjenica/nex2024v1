@@ -1,0 +1,17 @@
+.onama{
+    border-radius: 0;
+    width: 100%;
+    height: 76%;
+}
+@media only screen and (max-width:1399px) {
+    .onama{
+        border-radius: 0;
+        width: 100%;
+        height: 100%;
+    }
+}
+@media only screen and (max-width:991px) {
+    .onama{
+        border-radius: 0;
+    }
+}

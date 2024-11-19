@@ -2,7 +2,8 @@
     align-items: center;
     justify-content: flex-start;
     display: flex;
-    position: relative;background: linear-gradient(to top, #000000d9, rgba(255, 255, 255, 0)), url('//STRANICA/Website/assets/images/truck-ai-1792x1024.jpg');
+    position: relative;
+    background-image: url("assets/images/truck-ai-1792x1024.jpg");
     background-position: center;
     background-size: cover;
   }
