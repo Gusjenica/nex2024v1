@@ -300,19 +300,20 @@ body{
         width: 100%;
     }
 
-.desnodugme{
-    position: relative;
-    left: 93%;
-    margin: 0 0 2% 0;
-}
+    .desnodugme{
+        position: relative;
+        left: 93%;
+        margin: 0 0 2% 0;
+    }
 
-.centriranjeteksta{
-   text-align: center;
-}
+    .centriranjeteksta{
+        text-align: center;
+    }
 
-.centriranjedugmeta{
-    left: 42%;
-    position: relative;
+    .centriranjedugmeta{
+        left: 42%;
+        position: relative;
+    }
 }
 
 h1 {
@@ -344,6 +345,7 @@ button:hover {
     scrollbar-width: thin;
     scrollbar-color: #065cbe;
 }
+
 
 @media only screen and (max-width:500px) {
     .desnodugme{
@@ -669,5 +671,4 @@ button:hover {
         scrollbar-gutter: stable;
         width: 100%;
     }
-}
 }

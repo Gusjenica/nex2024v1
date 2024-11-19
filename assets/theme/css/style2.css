@@ -12,8 +12,22 @@ body {
 }
 
 button {
-  background-color: black;
+  background-color: white;;
   border-color: transparent;
+
+    padding: 10px 20px;
+    background-color: white;
+    color: #000;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+
+}
+
+button:hover {
+  background-color: #065cbe;
+  color: #fff;
 }
 
 .embla__button,
