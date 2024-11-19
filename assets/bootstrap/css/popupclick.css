@@ -275,6 +275,31 @@ body{
     scrollbar-gutter: stable;
 }
 
+
+@media only screen and (max-width:900px) {  
+
+    #dugmepn:hover{
+        background-color: white;
+    }
+
+    #popupDialog {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 20px;
+        background-color: aliceblue;
+        border-radius: 20px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+        z-index: 1000;
+        visibility: hidden;
+        padding: 1rem;
+        max-height: 800px;
+        overflow-y: auto;
+        scrollbar-gutter: stable;
+        width: 100%;
+    }
+
 .desnodugme{
     position: relative;
     left: 93%;
@@ -644,4 +669,5 @@ button:hover {
         scrollbar-gutter: stable;
         width: 100%;
     }
+}
 }
