@@ -290,6 +290,46 @@ body{
     scrollbar-gutter: stable;
 }
 
+
+/* MOBILNA VERZIJA O NAMA*/
+
+@media only screen and (max-width:991){
+    #popupDialog18 {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 20px;
+        background-color: aliceblue;
+        border-radius: 20px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+        z-index: 1000;
+        visibility: hidden;
+        max-height: 600px;
+        overflow-y: auto;
+        scrollbar-gutter: stable;
+    }
+    
+    #dugmepn:hover{
+        background-color: white;
+    }
+
+    .desnodugme{
+        position: relative;
+        left: 93%;
+        margin: 0 0 2% 0;
+    }
+
+    .centriranjeteksta{
+        text-align: center;
+    }
+
+    .centriranjedugmeta{
+        left: 42%;
+        position: relative;
+    }
+}
+
 /* MOBILNA VERZIJA*/
 
 @media only screen and (max-width:900px) {  

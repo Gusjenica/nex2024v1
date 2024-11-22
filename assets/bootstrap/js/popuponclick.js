@@ -202,3 +202,16 @@ function openPop17() {
             ? "hidden"
             : "visible";
 };
+
+function openPop18() {
+    const popDialog18 =
+        document.getElementById(
+            "popupDialog18"
+        );
+    popDialog18.style.visibility =
+        popDialog18.style.visibility ===
+            "visible"
+            ? "hidden"
+            : "visible";
+    
+};
