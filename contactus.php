@@ -66,7 +66,7 @@
                         <li class="nav-item">
                             <li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="index.html#referenca">Reference</a></li>
                         <li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="index.html#features-26-uaMcZ6A3qb" aria-expanded="false">Djelatnosti</a></li>
-                        <li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="contactus.html">Kontakt</a></li>
+                        <li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="contactus.php">Kontakt</a></li>
                     </ul>
                     <div class="icons-menu">
                         <a class="iconfont-wrapper" href="tel:38733711855">
@@ -88,6 +88,9 @@
 
 <section data-bs-version="5.1" class="form5 cid-ucalyBFCEs" id="form02-g">
     
+    <?php if($message_sent): ?>
+        <h3>Hvala Vam bit cemo u kontaktu</h3>
+    <?php else: ?>
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-12 content-head">
@@ -98,22 +101,22 @@
         </div>
         <div class="row justify-content-center">
             <div class="col-lg-8 mx-auto mbr-form" data-form-type="formoid">
-                <form action="https://mobirise.eu/" method="POST" class="mbr-form form-with-styler" data-form-title="Form Name"><input type="hidden" name="email" data-form-email="true" value="NDidVLI4vihkcukcS3vHneBT3/5A2+X8ktfzvoaIVKoY373E9LtUwDv9O8b1z1V38/KwS+bof3hZuTaaDy95VNC6I5QlOZC7d+PChV024+bhfOv9WUbXPh0xYn3FCUOw">
+                <form action="forma.php" method="POST" class="mbr-form form-with-styler" data-form-title="Form Name"><input type="hidden" name="email" data-form-email="true" value="NDidVLI4vihkcukcS3vHneBT3/5A2+X8ktfzvoaIVKoY373E9LtUwDv9O8b1z1V38/KwS+bof3hZuTaaDy95VNC6I5QlOZC7d+PChV024+bhfOv9WUbXPh0xYn3FCUOw">
                     <div class="row">
-                        <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Thanks for filling out the form!</div>
+                        <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Hvala Vam na kontaktiranju</div>
                         <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">
-                            Oops...! some problem!
+                            Niste ispunili sve uslove
                         </div>
                     </div>
                     <div class="dragArea row">
                         <div class="col-md col-sm-12 form-group mb-3" data-for="name">
-                            <input type="text" name="name" placeholder="Ime" data-form-field="name" class="form-control" value="" id="name-form02-g">
+                            <input type="text" name="name" placeholder="Ime" data-form-field="name" class="form-control" value="" id="name-form02-g" required>
                         </div>
                         <div class="col-md col-sm-12 form-group mb-3" data-for="email">
-                            <input type="email" name="email" placeholder="Email" data-form-field="email" class="form-control" value="" id="email-form02-g">
+                            <input type="email" name="email" placeholder="Email" data-form-field="email" class="form-control" value="" id="email-form02-g" required>
                         </div>
                         <div class="col-12 form-group mb-3" data-for="textarea">
-                            <textarea name="textarea" placeholder="Poruka" data-form-field="textarea" class="form-control" id="textarea-form02-g"></textarea>
+                            <textarea name="poruka" placeholder="Poruka" data-form-field="textarea" class="form-control" id="textarea-form02-g"></textarea>
                         </div>
                         <div class="col-lg-12 col-md-12 col-sm-12 align-center mbr-section-btn">
                             <button type="submit" class="btn btn-primary display-7">Pošalji Upit</button>
@@ -123,6 +126,7 @@
             </div>
         </div>
     </div>
+    <?php endif; ?> 
 </section>
 
 <section data-bs-version="5.1" class="contacts02 map1 cid-ucalyC5Yal" id="contacts02-h">
