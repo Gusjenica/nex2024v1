@@ -166,19 +166,19 @@
 							<div>Kompletan vozni park dostupan u svakom trenutku!</div>
 						</h5>
 						<div id="popupContainer">
-							<button class="dugmep" onclick="openPop()">Pročitaj više</button>
-							<div id="popupDialog" class="klizac">
+							<button class="primary" onclick="window.dialog.showModal();">Pročitaj više</button>
+							<dialog id="dialog">
 								<div class="grid-container">
-									<button onclick="openPop()" class="desnodugme">X</button>
-									<div class="grid-child purple">
-										<img class="w-100" style="height: 100%;"
-											src="assets/images/RIJESENJA/bilboard/uzivo_pracenje_970x250px.png"
-											alt="Mobirise Website Builder">
-									</div>
-									<div class="grid-child green">
-										<h1 class="mbr-section-title mbr-fonts-style mb-4 display-5 centriranjeteksta">
+									<div class="grid-child purple sticky">
+										<button onclick="window.dialog.close();" aria-label="close" class="x desnodugme">X</button>
+										<h1 class="mbr-section-title mbr-fonts-style mb-4 display-5" style="margin-top: -10%;">
 											<br><strong>Live praćenje</strong>
 										</h1>
+										<img class="w-100" style="height: 100%;"
+											src="assets/images/RIJESENJA/bilboard/uzivo_pracenje_970x250px.png"
+											alt="">
+									</div>
+									<div class="grid-child green">
 										<p class="mbr-text mbr-fonts-style mb-3 display-7">Uz našu naprednu platformu
 											imate potpunu kontrolu nad svakim vozilom i vozačem u Vašoj floti – direktno
 											na svom telefonu ili računaru! Bilo gdje da se nalazite, u bilo koje
@@ -197,8 +197,7 @@
 											kompanija.</p>
 									</div>
 								</div>
-								<button onclick="openPop()" class="centriranjedugmeta">Zatvori</button>
-							</div>
+						</dialog>
 						</div>
 					</div>
 				</div>
@@ -213,47 +212,46 @@
 						<h4 class="card-title mbr-fonts-style mb-0 display-7"><strong>Eko vožnja</strong></h4>
 						<h5 class="card-text mbr-fonts-style mt-3 display-7">Optimizacijom vozačkog stila do dodatnih
 							ušteda</h5>
-						<div id="popupContainer">
-							<button class="dugmep" onclick="openPop2()">Pročitaj više</button>
-							<div id="popupDialog2">
-								<div class="grid-container">
-									<button onclick="openPop2()" class="desnodugme dugmep">X</button>
-									<div class="grid-child purple">
-										<img class="w-100" style="height: 100%;"
-											src="assets/images/RIJESENJA/bilboard/eko_voznja_970x250px.png"
-											alt="Mobirise Website Builder">
+							<div id="popupContainer">
+								<button class="primary" onclick="window.dialog2.showModal();">Pročitaj više</button>
+								<dialog id="dialog2">
+									<div class="grid-container">
+										<div class="grid-child purple sticky">
+											<button onclick="window.dialog2.close();" aria-label="close" class="x desnodugme">X</button>
+											<h1 class="mbr-section-title mbr-fonts-style mb-4 display-5" style="margin-top: -10%;">
+												<br><strong>Eko vožnja</strong>
+											</h1>
+											<img class="w-100" style="height: 100%;"
+												src="assets/images/RIJESENJA/bilboard/eko_voznja_970x250px.png"
+												alt="">
+										</div>
+										<div class="grid-child green">
+											<p class="mbr-text mbr-fonts-style mb-3 display-7">Eko vožnja predstavlja
+												moderan pristup vožnji koji fokus stavlja na efikasnost, sigurnost, i
+												ekološku odgovornost. Naša platforma za praćenje vozila pruža detaljne
+												informacije o ponašanju svakog vozača, uključujući podatke o naglim
+												ubrzanjima, kočenjima, skretanjima, broju obrtaja motora i jačini potiska
+												pedale gasa. Na osnovu ovih parametara, moguće je precizno analizirati stil
+												vožnje i ocijeniti ga u skladu sa standardima eko vožnje.</p>
+											<p class="mbr-text mbr-fonts-style mb-3 display-7">Implementacija eko vožnje
+												donosi mnogobrojne benefite za kompaniju i vozače. Koristeći vozila unutar
+												"eko" okvira, ista traju duže, smanjuje se potrošnja goriva, poboljšava
+												sigurnost na cestama, te se smanjuje emisija štetnih gasova, čime se
+												doprinosi očuvanju životne sredine. Ovaj pristup doprinosi značajnim
+												uštedama na nivou kompanije, dok ujedno gradi pozitivan imidž održivosti</p>
+											<p class="mbr-text mbr-fonts-style mb-3 display-7">Naša platforma omogućava
+												generisanje ocjena vozača za odabrane vremenske periode. Ove ocjene pružaju
+												priliku da se nagrade vozači koji svojim pažljivim vozačkim navikama
+												doprinosi uštedama i održivosti. Ujedno, ovakav pristup motiviše ostale
+												vozače da prilagode svoje navike i usklade ih sa principima eko vožnje, čime
+												se stvara konkurentna i odgovorna radna atmosfera.</p>
+											<p class="mbr-text mbr-fonts-style mb-3 display-7">Iskoristite priliku da
+												optimizujete performanse vašeg voznog parka kroz naš sistem za praćenje eko
+												vožnje i doprinesete dugoročnim uštedama i održivosti vaše kompanije.</p>
+										</div>
 									</div>
-									<div class="grid-child green">
-										<h1 class="mbr-section-title mbr-fonts-style mb-4 display-5 centriranjeteksta">
-											<br><strong>Eko vožnja</strong>
-										</h1>
-										<p class="mbr-text mbr-fonts-style mb-3 display-7">Eko vožnja predstavlja
-											moderan pristup vožnji koji fokus stavlja na efikasnost, sigurnost, i
-											ekološku odgovornost. Naša platforma za praćenje vozila pruža detaljne
-											informacije o ponašanju svakog vozača, uključujući podatke o naglim
-											ubrzanjima, kočenjima, skretanjima, broju obrtaja motora i jačini potiska
-											pedale gasa. Na osnovu ovih parametara, moguće je precizno analizirati stil
-											vožnje i ocijeniti ga u skladu sa standardima eko vožnje.</p>
-										<p class="mbr-text mbr-fonts-style mb-3 display-7">Implementacija eko vožnje
-											donosi mnogobrojne benefite za kompaniju i vozače. Koristeći vozila unutar
-											"eko" okvira, ista traju duže, smanjuje se potrošnja goriva, poboljšava
-											sigurnost na cestama, te se smanjuje emisija štetnih gasova, čime se
-											doprinosi očuvanju životne sredine. Ovaj pristup doprinosi značajnim
-											uštedama na nivou kompanije, dok ujedno gradi pozitivan imidž održivosti</p>
-										<p class="mbr-text mbr-fonts-style mb-3 display-7">Naša platforma omogućava
-											generisanje ocjena vozača za odabrane vremenske periode. Ove ocjene pružaju
-											priliku da se nagrade vozači koji svojim pažljivim vozačkim navikama
-											doprinosi uštedama i održivosti. Ujedno, ovakav pristup motiviše ostale
-											vozače da prilagode svoje navike i usklade ih sa principima eko vožnje, čime
-											se stvara konkurentna i odgovorna radna atmosfera.</p>
-										<p class="mbr-text mbr-fonts-style mb-3 display-7">Iskoristite priliku da
-											optimizujete performanse vašeg voznog parka kroz naš sistem za praćenje eko
-											vožnje i doprinesete dugoročnim uštedama i održivosti vaše kompanije.</p>
-									</div>
-								</div>
-								<button onclick="openPop2()" class="centriranjedugmeta dugmep">Zatvori</button>
+							</dialog>
 							</div>
-						</div>
 					</div>
 				</div>
 			</div>
@@ -262,7 +260,7 @@
 				<div class="item-wrapper">
 					<div class="img-wrapper" style="border-radius: 0;">
 						<img src="assets/images/ddhl-removebg-preview-500x500.png" class="ikonice"
-							alt="Mobirise Website Builder" data-bs-slide-to="2" data-slide-to="2">
+							alt="" data-bs-slide-to="2" data-slide-to="2">
 					</div>
 					<div class="card-box">
 						<h4 class="card-title mbr-fonts-style mb-0 display-7"><strong>Putni nalozi</strong></h4>
@@ -270,43 +268,43 @@
 							<p>Automatsko kreiranje na osnovu pređene rute vozila</p>
 						</h5>
 						<div id="popupContainer">
-							<button class="dugmep" onclick="openPop3()">Pročitaj više</button>
-							<div id="popupDialog3">
-								<div class="grid-container">
-									<button onclick="openPop3()" class="desnodugme dugmep">X</button>
-									<div class="grid-child purple">
-										<img class="w-100" style="height: 100%;"
-											src="assets/images/RIJESENJA/bilboard/Putni_nalog_970x250px.png"
-											alt="Mobirise Website Builder">
+							<button class="primary" onclick="window.dialog3.showModal();">Pročitaj više</button>
+							
+							<dialog id="dialog3">
+									<div class="grid-container">
+										<div class="grid-child purple sticky">
+											<button onclick="window.dialog3.close();" aria-label="close" class="x desnodugme">X</button>
+											<h1 class="mbr-section-title mbr-fonts-style mb-4 display-5" style="margin-top: -10%;">
+												<br><strong>Putni nalozi</strong>
+											</h1>
+											<img class="w-100" style="height: 100%;"
+												src="assets/images/RIJESENJA/bilboard/Putni_nalog_970x250px.png"
+												alt="">
+										</div>
+										<div class="grid-child green">
+											<p class="mbr-text mbr-fonts-style mb-3 display-7">Automatizacija kreiranja
+												putnih naloga značajno pojednostavljuje poslovanje i smanjuje
+												administrativne zadatke. Naš napredni sistem omogućava automatsko
+												generisanje putnih naloga na osnovu preciznih podataka o kretanju vozila i
+												vozaču, što osigurava zakonsku usklađenost i ažurnost svih dokumenata.
+												Pripremite putne naloge za buduće periode s mogućnošću brzog printanja, dok
+												za prethodne periode jednostavno generišete kompletno popunjen putni nalog s
+												detaljima vožnje, lokacijama, i kilometrima.</p>
+											<p class="mbr-text mbr-fonts-style mb-3 display-7"><strong>Prednosti automatskog
+													kreiranja putnih naloga:</strong><br>
+												• Ušteda vremena i smanjenje grešaka u dokumentaciji<br>
+												• Podaci o vozilu i vozaču integrisani direktno u putni nalog<br>
+												• Kompletna usklađenost sa zakonskim propisima za putne naloge<br>
+												• Jednostavan pregled i printanje naloga u bilo kojem trenutku
+											</p>
+											<p class="mbr-text mbr-fonts-style mb-3 display-7">Ova funkcionalnost je idealna
+												za kompanije u transportnom sektoru, distribuciji, građevinarstvu i mnogim
+												drugim industrijama kojima je važno efikasno i uredno vođenje putne
+												dokumentacije.</p>
+										</div>
 									</div>
-									<div class="grid-child green">
-										<h1 class="mbr-section-title mbr-fonts-style mb-4 display-5 centriranjeteksta">
-											<br><strong>Putni nalozi</strong>
-										</h1>
-										<p class="mbr-text mbr-fonts-style mb-3 display-7">Automatizacija kreiranja
-											putnih naloga značajno pojednostavljuje poslovanje i smanjuje
-											administrativne zadatke. Naš napredni sistem omogućava automatsko
-											generisanje putnih naloga na osnovu preciznih podataka o kretanju vozila i
-											vozaču, što osigurava zakonsku usklađenost i ažurnost svih dokumenata.
-											Pripremite putne naloge za buduće periode s mogućnošću brzog printanja, dok
-											za prethodne periode jednostavno generišete kompletno popunjen putni nalog s
-											detaljima vožnje, lokacijama, i kilometrima.</p>
-										<p class="mbr-text mbr-fonts-style mb-3 display-7"><strong>Prednosti automatskog
-												kreiranja putnih naloga:</strong><br>
-											• Ušteda vremena i smanjenje grešaka u dokumentaciji<br>
-											• Podaci o vozilu i vozaču integrisani direktno u putni nalog<br>
-											• Kompletna usklađenost sa zakonskim propisima za putne naloge<br>
-											• Jednostavan pregled i printanje naloga u bilo kojem trenutku
-										</p>
-										<p class="mbr-text mbr-fonts-style mb-3 display-7">Ova funkcionalnost je idealna
-											za kompanije u transportnom sektoru, distribuciji, građevinarstvu i mnogim
-											drugim industrijama kojima je važno efikasno i uredno vođenje putne
-											dokumentacije.</p>
-									</div>
-								</div>
-								<button onclick="openPop3()" class="centriranjedugmeta class=" dugmep" ">Zatvori</button>
-                            </div>
-                        </div>
+							</dialog>
+							</div>
                     </div>
 				</div>
 			</div>
@@ -314,7 +312,7 @@
 									<div class="item-wrapper">
 										<div class="img-wrapper" style="border-radius: 0;">
 											<img src="assets/images/mbr-192x193.png" class="ikonice"
-												alt="Mobirise Website Builder" data-slide-to="3" data-bs-slide-to="3">
+												alt="" data-slide-to="3" data-bs-slide-to="3">
 										</div>
 										<div class="card-box">
 											<h4 class="card-title mbr-fonts-style mb-0 display-7">
@@ -322,44 +320,41 @@
 											</h4>
 											<h5 class="card-text mbr-fonts-style mt-3 display-7">Detaljna analiza i
 												izvještaji</h5>
-											<div id="popupContainer">
-												<button class="dugmep" onclick="openPop4()">Pročitaj više</button>
-												<div id="popupDialog4">
-													<div class="grid-container">
-														<button onclick="openPop4()"
-															class="desnodugme dugmep">X</button>
-														<div class="grid-child purple">
-															<img class="w-100" style="height: 100%;"
-																src="assets/images/RIJESENJA/bilboard/potrosnja_goriva_970x250px.png"
-																alt="Mobirise Website Builder">
-														</div>
-														<div class="grid-child green">
-															<h1
-																class="mbr-section-title mbr-fonts-style mb-4 display-5 centriranjeteksta">
-																<br><strong>Kontrola potrošnje goriva</strong>
-															</h1>
-															<p class="mbr-text mbr-fonts-style mb-3 display-7">U
-																potpunosti pratite potrošnju goriva svojih vozila uz naš
-																napredni sistem praćenja i evidencije u realnom vremenu.
-																Naš softver omogućava preciznu kontrolu svake promjene
-																stanja goriva: bilježi svaki unos goriva, pražnjenje,
-																kao i fluktuacije kod promjena nadmorske visine. Uvidom
-																u trenutnu i prosječnu potrošnju goriva u odnosu na
-																pređene kilometre ili radne sate, jednostavno
-																optimizujte potrošnju i smanjite troškove poslovanja.
-															</p>
-															<p class="mbr-text mbr-fonts-style mb-3 display-7">Naša
-																tehnologija vam pruža detaljne izvještaje i analizu
-																potrošnje goriva, što omogućava pravovremeno donošenje
-																odluka i efikasnije upravljanje kompletnom flotom.
-																<strong>Smanjite nepotrebne troškove i poboljšajte
-																	efikasnost uz naš sistem za nadzor potrošnje
-																	goriva.</strong></p>
-														</div>
-													</div>
-													<button onclick="openPop4()" class="centriranjedugmeta class="
-														dugmep" ">Zatvori</button>
-                            </div>
+												<div id="popupContainer">
+													<button class="primary" onclick="window.dialog4.showModal();">Pročitaj više</button>
+													
+													<dialog id="dialog4">
+															<div class="grid-container">
+																<div class="grid-child purple sticky">
+																	<button onclick="window.dialog4.close();" aria-label="close" class="x desnodugme">X</button>
+																	<h1 class="mbr-section-title mbr-fonts-style mb-4 display-5" style="margin-top: -10%;">
+																		<br><strong>Kontrola potrošnje goriva</strong>
+																	</h1>
+																	<img class="w-100" style="height: 100%;"
+																		src="assets/images/RIJESENJA/bilboard/potrosnja_goriva_970x250px.png"
+																		alt="">
+																</div>
+																<div class="grid-child green">
+																	<p class="mbr-text mbr-fonts-style mb-3 display-7">U
+																		potpunosti pratite potrošnju goriva svojih vozila uz naš
+																		napredni sistem praćenja i evidencije u realnom vremenu.
+																		Naš softver omogućava preciznu kontrolu svake promjene
+																		stanja goriva: bilježi svaki unos goriva, pražnjenje,
+																		kao i fluktuacije kod promjena nadmorske visine. Uvidom
+																		u trenutnu i prosječnu potrošnju goriva u odnosu na
+																		pređene kilometre ili radne sate, jednostavno
+																		optimizujte potrošnju i smanjite troškove poslovanja.
+																	</p>
+																	<p class="mbr-text mbr-fonts-style mb-3 display-7">Naša
+																		tehnologija vam pruža detaljne izvještaje i analizu
+																		potrošnje goriva, što omogućava pravovremeno donošenje
+																		odluka i efikasnije upravljanje kompletnom flotom.
+																		<strong>Smanjite nepotrebne troškove i poboljšajte
+																			efikasnost uz naš sistem za nadzor potrošnje
+																			goriva.</strong></p>
+																</div>
+															</div>
+													</dialog>			
                         </div>
                     </div>
 				</div>
@@ -377,25 +372,22 @@
 																</h4>
 																<h5 class="card-text mbr-fonts-style mt-3 display-7">
 																	Jednostavniji pregled i efikasnije upravljanje</h5>
-																<div id="popupContainer">
-																	<button class="dugmep" onclick="openPop5()">Pročitaj
-																		više</button>
-																	<div id="popupDialog5">
-																		<div class="grid-container">
-																			<button onclick="openPop5()"
-																				class="desnodugme dugmep">X</button>
-																			<div class="grid-child purple">
-																				<img class="w-100" style="height: 100%;"
-																					src="assets/images/RIJESENJA/bilboard/organizacija_voznog_parka_970x250px.png"
-																					alt="Mobirise Website Builder">
-																			</div>
-																			<div class="grid-child green">
-																				<h1
-																					class="mbr-section-title mbr-fonts-style mb-4 display-5 centriranjeteksta">
-																					<br><strong>Organizacija i
-																						optimizacija vozila</strong>
-																				</h1>
-																				<p
+																	<div id="popupContainer">
+																		<button class="primary" onclick="window.dialog5.showModal();">Pročitaj više</button>
+																		
+																		<dialog id="dialog5">
+																				<div class="grid-container">
+																					<div class="grid-child purple sticky">
+																						<button onclick="window.dialog5.close();" aria-label="close" class="x desnodugme">X</button>
+																						<h1 class="mbr-section-title mbr-fonts-style mb-4 display-5" style="margin-top: -10%;">
+																							<br><strong>Organizacija i optimizacija vozila</strong>
+																						</h1>
+																						<img class="w-100" style="height: 100%;"
+																							src="assets/images/RIJESENJA/bilboard/organizacija_voznog_parka_970x250px.png"
+																							alt="">
+																					</div>
+																					<div class="grid-child green">
+																						<p
 																					class="mbr-text mbr-fonts-style mb-3 display-7">
 																					Efikasna organizacija i optimizacija
 																					voznog parka je ključna za
@@ -430,11 +422,9 @@
 																					izvještaji po grupama vozila,
 																					idealno za procjenu produktivnosti i
 																					alokaciju resursa.</p>
-																			</div>
-																		</div>
-																		<button onclick="openPop5()"
-																			class="centriranjedugmeta class=" dugmep" ">Zatvori</button>
-                                </div>
+																					</div>
+																				</div>
+																		</dialog>
                             </div>
                         </div>
 				</div>
@@ -445,7 +435,7 @@
 																				<div class="img-wrapper">
 																					<img src="assets/images/tachorecipt.png"
 																						class="ikonice"
-																						alt="Mobirise Website Builder"
+																						alt=""
 																						data-slide-to="5"
 																						data-bs-slide-to="5">
 																				</div>
@@ -460,29 +450,21 @@
 																						Podacima u Realnom Vremenu&nbsp;
 																					</h5>
 																					<div id="popupContainer">
-																						<button class="dugmep"
-																							onclick="openPop6()">Pročitaj
-																							više</button>
-																						<div id="popupDialog6">
-																							<div class="grid-container">
-																								<button
-																									onclick="openPop6()"
-																									class="desnodugme dugmep">X</button>
-																								<div
-																									class="grid-child purple">
-																									<img class="w-100"
-																										style="height: 100%;"
-																										src="assets/images/RIJESENJA/bilboard/xtaho_970x250px.png"
-																										alt="Mobirise Website Builder">
-																								</div>
-																								<div
-																									class="grid-child green">
-																									<h1
-																										class="mbr-section-title mbr-fonts-style mb-4 display-5 centriranjeteksta">
-																										<br><strong>NEX
-																											Taho</strong>
-																									</h1>
-																									<p
+																						<button class="primary" onclick="window.dialog6.showModal();">Pročitaj više</button>
+																						
+																						<dialog id="dialog6">
+																								<div class="grid-container">
+																									<div class="grid-child purple sticky">
+																										<button onclick="window.dialog6.close();" aria-label="close" class="x desnodugme">X</button>
+																										<h1 class="mbr-section-title mbr-fonts-style mb-4 display-5" style="margin-top: -10%;">
+																											<br><strong>NEX Taho</strong>
+																										</h1>
+																										<img class="w-100" style="height: 100%;"
+																											src="assets/images/RIJESENJA/bilboard/xtaho_970x250px.png"
+																											alt="">
+																									</div>
+																									<div class="grid-child green">
+																										<p
 																										class="mbr-text mbr-fonts-style mb-3 display-7">
 																										NEX Taho je
 																										napredno
@@ -596,24 +578,20 @@
 																										optimizaciju
 																										tahografskih
 																										podataka.</p>
+																									</div>
 																								</div>
-																							</div>
-																							<button onclick="openPop6()"
-																								class="centriranjedugmeta dugmep">Zatvori</button>
-																						</div>
+																						</dialog>
 																					</div>
 																				</div>
 																			</div>
-																	</div>
-
-																	<div
-																		class="item features-without-image col-12 col-lg-4">
+			</div>
+			<div class="item features-without-image col-12 col-lg-4">
 																		<div class="item-wrapper"
 																			style="border-radius: 0;">
 																			<div class="img-wrapper">
 																				<img src="assets/images/icons8-route-64.png"
 																					class="ikonice"
-																					alt="Mobirise Website Builder"
+																					alt=""
 																					data-bs-slide-to="6"
 																					data-slide-to="6">
 																			</div>
@@ -627,29 +605,22 @@
 																					Uzmite u obzir najkraći ili najbrži
 																					put, vrijeme provedeno na
 																					lokaciji&nbsp;</h5>
-																				<div id="popupContainer">
-																					<button class="dugmep"
-																						onclick="openPop7()">Pročitaj
-																						više</button>
-																					<div id="popupDialog7">
-																						<div class="grid-container">
-																							<button onclick="openPop7()"
-																								class="desnodugme dugmep">X</button>
-																							<div
-																								class="grid-child purple">
-																								<img class="w-100"
-																									style="height: 100%;"
-																									src="assets/images/RIJESENJA/bilboard/route_planing_970x250px.png"
-																									alt="Mobirise Website Builder">
-																							</div>
-																							<div
-																								class="grid-child green">
-																								<h1
-																									class="mbr-section-title mbr-fonts-style mb-4 display-5 centriranjeteksta">
-																									<br><strong>Planiranje
-																										ruta</strong>
-																								</h1>
-																								<p
+																						<div id="popupContainer">
+																							<button class="primary" onclick="window.dialog7.showModal();">Pročitaj više</button>
+																							
+																							<dialog id="dialog7">
+																									<div class="grid-container">
+																										<div class="grid-child purple sticky">
+																											<button onclick="window.dialog7.close();" aria-label="close" class="x desnodugme">X</button>
+																											<h1 class="mbr-section-title mbr-fonts-style mb-4 display-5" style="margin-top: -10%;">
+																												<br><strong>Planiranje ruta</strong>
+																											</h1>
+																											<img class="w-100" style="height: 100%;"
+																												src="assets/images/RIJESENJA/bilboard/route_planing_970x250px.png"
+																												alt="">
+																										</div>
+																										<div class="grid-child green">
+																											<p
 																									class="mbr-text mbr-fonts-style mb-3 display-7">
 																									Naše napredno
 																									rješenje će vam
@@ -735,23 +706,20 @@
 																									od vremena dostave
 																									do zadovoljstva
 																									korisnika.</p>
-																							</div>
-																						</div>
-																						<button onclick="openPop7()"
-																							class="centriranjedugmeta dugmep">Zatvori</button>
-																					</div>
+																										</div>
+																									</div>
+																								</dialog>
 																				</div>
 																			</div>
 																		</div>
-																	</div>
-																	<div
-																		class="item features-without-image col-12 col-lg-4">
+			</div>
+			<div class="item features-without-image col-12 col-lg-4">
 																		<div class="item-wrapper"
 																			style="border-radius: 0;">
 																			<div class="img-wrapper">
 																				<img src="assets/images/mbr-192x192.png"
 																					class="ikonice"
-																					alt="Mobirise Website Builder"
+																					alt=""
 																					data-bs-slide-to="7"
 																					data-slide-to="7">
 																			</div>
@@ -767,29 +735,21 @@
 																					obavezama uz potpunu kontrolu&nbsp;
 																				</h5>
 																				<div id="popupContainer">
-																					<button class="dugmep"
-																						onclick="openPop8()">Pročitaj
-																						više</button>
-																					<div id="popupDialog8">
-																						<div class="grid-container">
-																							<button onclick="openPop8()"
-																								class="desnodugme dugmep">X</button>
-																							<div
-																								class="grid-child purple">
-																								<img class="w-100"
-																									style="height: 100%;"
-																									src="assets/images/RIJESENJA/bilboard/Automatizacija_odrzavanja_970x250px.png"
-																									alt="Mobirise Website Builder">
-																							</div>
-																							<div
-																								class="grid-child green">
-																								<h1
-																									class="mbr-section-title mbr-fonts-style mb-4 display-5 centriranjeteksta">
-																									<br><strong>Automatizacija
-																										sistema
-																										održavanja</strong>
-																								</h1>
-																								<p
+																					<button class="primary" onclick="window.dialog8.showModal();">Pročitaj više</button>
+																					
+																					<dialog id="dialog8">
+																							<div class="grid-container">
+																								<div class="grid-child purple sticky">
+																									<button onclick="window.dialog8.close();" aria-label="close" class="x desnodugme">X</button>
+																									<h1 class="mbr-section-title mbr-fonts-style mb-4 display-5" style="margin-top: -10%;">
+																										<br><strong>Automatizacija sistema održavanja</strong>
+																									</h1>
+																									<img class="w-100" style="height: 100%;"
+																										src="assets/images/RIJESENJA/bilboard/Automatizacija_odrzavanja_970x250px.png"
+																										alt="">
+																								</div>
+																								<div class="grid-child green">
+																									<p
 																									class="mbr-text mbr-fonts-style mb-3 display-7">
 																									Zaboravite na ručno
 																									praćenje servisa,
@@ -862,23 +822,20 @@
 																									neželjene kvarove i
 																									zakonske probleme
 																								</p>
+																								</div>
 																							</div>
-																						</div>
-																						<button onclick="openPop8()"
-																							class="centriranjedugmeta dugmep">Zatvori</button>
-																					</div>
+																					</dialog>
 																				</div>
 																			</div>
 																		</div>
-																	</div>
-																	<div
-																		class="item features-without-image col-12 col-lg-4">
+			</div>
+			<div class="item features-without-image col-12 col-lg-4">
 																		<div class="item-wrapper">
 																			<div class="img-wrapper">
 																				<img src="assets/images/handshake.png"
 																					class="ikonice"
 																					style="border-radius: 0;"
-																					alt="Mobirise Website Builder"
+																					alt=""
 																					data-bs-slide-to="8"
 																					data-slide-to="8">
 																			</div>
@@ -893,28 +850,22 @@
 																					unapređenje Vašeg poslovanja&nbsp;
 																				</h5>
 																				<div id="popupContainer">
-																					<button class="dugmep"
-																						onclick="openPop9()">Pročitaj
-																						više</button>
-																					<div id="popupDialog9">
-																						<div class="grid-container">
-																							<button onclick="openPop9()"
-																								class="desnodugme dugmep">X</button>
-																							<div
-																								class="grid-child purple">
-																								<img class="w-100"
-																									style="height: 100%;"
-																									src="assets/images/RIJESENJA/bilboard/Prilagodjena_rjesenja_970x250px.png"
-																									alt="Mobirise Website Builder">
-																							</div>
-																							<div
-																								class="grid-child green">
-																								<h1
-																									class="mbr-section-title mbr-fonts-style mb-4 display-5 centriranjeteksta">
-																									<br><strong>Prolagođena
-																										rješenja</strong>
-																								</h1>
-																								<p
+																					<button class="primary" onclick="window.dialog9.showModal();">Pročitaj više</button>
+																					
+																					<dialog id="dialog9">
+																							<div class="grid-container">
+																								<div class="grid-child purple sticky">
+																									<button onclick="window.dialog9.close();" aria-label="close" class="x desnodugme">X</button>
+																									<h1 class="mbr-section-title mbr-fonts-style mb-4 display-5" style="margin-top: -10%;">
+																										<br><strong>Prilagođena
+																											rješenja</strong>
+																									</h1>
+																									<img class="w-100" style="height: 100%;"
+																										src="assets/images/RIJESENJA/bilboard/Prilagodjena_rjesenja_970x250px.png"
+																										alt="">
+																								</div>
+																								<div class="grid-child green">
+																									<p
 																									class="mbr-text mbr-fonts-style mb-3 display-7">
 																									Trebate li posebno
 																									rješenje koje je
@@ -979,55 +930,37 @@
 																									poslovne izazove<br>
 																									• I druga specifična
 																									rješenja</p>
+																								</div>
 																							</div>
-																						</div>
-																						<button onclick="openPop9()"
-																							class="centriranjedugmeta dugmep">Zatvori</button>
+																					</dialog>
 																					</div>
 																				</div>
 																			</div>
-																		</div>
-																	</div>
-																</div>
-															</div>
+			</div>
+			</div>
+			</div>
 </section>
 
 
 <!-- TE$SITRANJE -->
 
-<button class="primary" onclick="window.dialog.showModal();">Open Dialog</button>
+<button class="primary" onclick="window.dialog31.showModal();">Pročitaj više</button>
 
-<dialog id="dialog">
+<dialog id="dialog31">
 		<div class="grid-container">
 			<div class="grid-child purple sticky">
-				<button onclick="window.dialog.close();" aria-label="close" class="x desnodugme">X</button>
+				<button onclick="window.dialog31.close();" aria-label="close" class="x desnodugme">X</button>
 				<h1 class="mbr-section-title mbr-fonts-style mb-4 display-5" style="margin-top: -10%;">
 					<br><strong>Live praćenje</strong>
 				</h1>
 				<img class="w-100" style="height: 100%;"
-					src="assets/images/RIJESENJA/bilboard/uzivo_pracenje_970x250px.png"
-					alt="Mobirise Website Builder">
+					src=""
+					alt="">
 			</div>
 			<div class="grid-child green">
-				<p class="mbr-text mbr-fonts-style mb-3 display-7">Uz našu naprednu platformu
-					imate potpunu kontrolu nad svakim vozilom i vozačem u Vašoj floti – direktno
-					na svom telefonu ili računaru! Bilo gdje da se nalazite, u bilo koje
-					vrijeme, sve ključne informacije o poziciji, brzini, stanju vozila, te
-					radnom statusu vozača su Vam dostupne na dohvat ruke. Ova inovativna
-					tehnologija omogućava brze odluke i znatno olakšava svakodnevno poslovanje
-					zahvaljujući uvijek ažuriranim podacima. Praćenje u realnom vremenu pruža
-					Vam uvid u potrošnju goriva, održavanje, geozone i druge aspekte važne za
-					optimalno upravljanje vozilima. Naša rješenja za GPS praćenje vozila
-					omogućavaju Vam efikasniji rad, smanjenje troškova, i maksimalnu kontrolu
-					nad voznim parkom.</p>
-				<p class="mbr-text mbr-fonts-style mb-3 display-7">Uključivanjem ovakvih sistema
-					u Vaše poslovanje, unapređujete sigurnost i produktivnost, te olakšavate
-					procese planiranja i optimizacije rute za sve industrije – od transporta i
-					logistike, preko građevinske industrije, do distribucije i farmaceutskih
-					kompanija.</p>
+				
 			</div>
 		</div>
-	<!--<button onclick="window.dialog.close();" aria-label="close" class="x">X</button>-->
 </dialog>
 
 
@@ -1035,12 +968,12 @@
 
 
 
-<button class="primary" onclick="window.dialog2.showModal();">Open Dialog</button>
+<button class="primary" onclick="window.dialog30.showModal();">Pročitaj više</button>
 
-<dialog id="dialog2">
+<dialog id="dialog30">
 		<div class="grid-container">
 			<div class="grid-child purple sticky">
-				<button onclick="window.dialog2.close();" aria-label="close" class="x desnodugme">X</button>
+				<button onclick="window.dialog30.close();" aria-label="close" class="x desnodugme">X</button>
 				<h1 class="mbr-section-title mbr-fonts-style mb-4 display-5" style="margin-top: -10%;">
 					<br><strong>NEX Tacho</strong>
 				</h1>
