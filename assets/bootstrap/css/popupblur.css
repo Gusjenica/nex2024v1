@@ -85,6 +85,7 @@ dialog {
   .sticky{
     position: sticky;
     top: 0;
+    background-color: aliceblue;
   }
   
   @-webkit-keyframes fadeIn {
