@@ -605,7 +605,7 @@ a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):not(.navbar-cap
   background-color: #ae1e2c;
 }
 .mbr-section-btn .btn:not(.btn-form) {
-  border-radius: 20px;
+  border-radius: 1rem;
 }
 .mbr-gallery-filter li a {
   border-radius: 100px !important;
