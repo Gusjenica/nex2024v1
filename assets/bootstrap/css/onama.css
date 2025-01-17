@@ -25,5 +25,6 @@
 @media only screen and (max-width:991px) {
     .onama{
         border-radius: 0;
+        width: 100%;
     }
 }
