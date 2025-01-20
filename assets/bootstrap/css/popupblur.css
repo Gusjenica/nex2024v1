@@ -103,8 +103,8 @@ dialog {
     padding: 1rem 3rem;
     background: white;
     max-width: 100%;
-    max-height: 70%;
-    padding-top: 2rem;
+    max-height: 85%;
+    /*padding-top: 2rem;*/
     border-radius: 1rem;
     border: 0;
     box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.1);
@@ -135,8 +135,8 @@ dialog {
     padding: 1rem 3rem;
     background: white;
     max-width: 100%;
-    max-height: 70%;
-    padding-top: 2rem;
+    max-height: 85%;
+    /*padding-top: 2rem;*/
     border-radius: 1rem;
     border: 0;
     box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.1);
@@ -158,5 +158,10 @@ dialog {
     z-index: 2;
     -webkit-backdrop-filter: blur(20px);
             backdrop-filter: blur(20px);
+  }
+
+  .popup_main_text{
+    margin-top: -20%;
+    margin-left: -6%;
   }
 }
