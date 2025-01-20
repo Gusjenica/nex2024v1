@@ -45,8 +45,9 @@ dialog {
   
   .sticky{
     position: sticky;
-    top: -30px;
+    top: -18px;
     background-color: white;
+    opacity: 1;
   }
 
   .popup_main_text{
