@@ -48,6 +48,10 @@ dialog {
     top: -30px;
     background-color: white;
   }
+
+  .popup_main_text{
+    margin-top: -8%;
+  }
   
   @-webkit-keyframes fadeIn {
     from {
@@ -161,7 +165,10 @@ dialog {
   }
 
   .popup_main_text{
-    margin-top: -20%;
-    margin-left: -6%;
+    margin-top: -25%;
+  }
+
+  .right_popup_button{
+    margin-top: 2%;
   }
 }
